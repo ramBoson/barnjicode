@@ -1,0 +1,43 @@
+{
+    "domain": "rare.af",
+    "algod":{
+        "server":"https://testnet.algoexplorerapi.io",
+        "port":0,
+        "token":"",
+        "network": "TestNet"
+    },
+    "indexer": {
+        "server":"https://testnet.algoexplorerapi.io/idx2",
+        "port":0,
+        "token":""
+    },
+    "ipfs":{
+        "display":"https://cloudflare-ipfs.com/ipfs/",
+        "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDI5RThhQkI4NzI4ODZhNjBkRWQ0MTI1RDYxNzA5NTMwOTgwNTUwNDIiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYyNDU1OTU2OTYwNiwibmFtZSI6ImRlbW9rZXkifQ.25DslAudtH8PWQJMeIqBYAeRPV3uT3i8avwTGLKY8ls" 
+    },
+    "explorer":"algoscan.app",
+    "application": {
+        "admin_addr": "ZSQ6JQFOR3VTJSEM45RYOTN32NH2RAGZB4RVWP2LB375F3FK7GNDAT27QA",
+        "app_id": 0,
+        "price_id": 0,
+        "owner_addr": "",
+        "name": "Square",
+        "unit": "sq",
+        "fee_amt": 10000,
+        "tags": [
+        ],
+        "listing_hash": "",
+        "seed_amt": 5000000,
+        "max_price": 10000000000
+    },
+    "contracts":{
+        "approval":"platform-approval.teal",
+        "clear":"platform-clear.teal",
+        "listing":"listing.teal",
+        "listing-positions":"listing.tmpl.teal.json"
+    },
+    "dev":{ 
+        "debug_txns":false,
+        "accounts":{ }
+    }
+}
